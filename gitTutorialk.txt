@@ -1,0 +1,95 @@
+user email-------------------------------
+
+	git config --global user.email "example@gmail.com"
+
+user name--------------------------------
+
+	git config --global user.name "username"
+
+default local branch-------------------------------
+
+	git config --global init.default branch main
+
+local repo-----------------------------------------
+
+	git init
+
+		(convert ur local data tree into a local git repo)
+
+status of repo-------------------------------------
+
+	git status
+	
+file track-----------------------------------------
+
+	git add example.html
+	git add --all
+	git add .
+	git add -A
+
+untrack file--------------------------------------
+
+	git rm --cached example.html
+
+commit--------------------------------------------
+
+	git commit -m "examplemassage"
+	git commit -a -m "examplemassage"
+
+modifyed file-------------------------------------
+
+	git diff
+
+git log-------------------------------------------
+
+	git log
+	git log --oneline
+
+create branches-----------------------------------
+
+	git branch examplebranch
+
+show branches-------------------------------------
+
+	git branch
+
+switch branches----------------------------------
+
+	git switch "examplebranch
+	git switch -c "createexamplebranch
+
+merge branches-----------------------------------
+
+	git merge -m "example"
+
+delete branches----------------------------------
+
+	git branch -d examplebranch
+
+ connect the cloud repo whit ur local-----------
+
+	git remote add origin http://github.com/exampleurl.com.git
+		
+		(link a cloud repo to ur local repository, origin is the cloud repos name)
+
+setting the targeted branch to main--------------
+
+	git branch -M main
+	git push --set-upstream origin master
+
+push all branches form the local repo to cloud---
+
+	git push --all
+
+push changes-------------------------------------
+
+	git push
+
+
+
+
+
+
+
+
+
